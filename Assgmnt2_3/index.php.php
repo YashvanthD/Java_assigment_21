@@ -6,7 +6,7 @@
 <body>
 <br><br>
 <center>
-<table style="border: 3px solid; height: 300px; width: 600px;"><td>
+<table style="border: 3px solid;border-color:grey; height: 300px; width: 600px;"><td>
 
 <div>
 	<center>
