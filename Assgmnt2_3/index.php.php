@@ -6,7 +6,7 @@
 <body>
 <br><br>
 <center>
-<table style="border: 8px solid;border-color:grey; height: 300px; width: 600px;"><td>
+<table style="border: 10px solid;border-color: grey; height: 300px; width: 600px;"><td>
 
 <div>
 	<center>
@@ -34,7 +34,7 @@
             	$random=rand(1,12);
             	echo '<h3>Choosen Question Number is : '.$random.'</h3>';
             	$file = 'Labset.txt';
-				$searchfor = $random ;
+				$searchfor = $random.'.' ;
 				$contents = file_get_contents($file);
 				$pattern = preg_quote($searchfor, '/');
 				$pattern = "/^.*$pattern.*\$/m";
